@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="flex flex-col gap-3">
+    <h1 class="text-3xl font-semibold">
+      {{page.title}}
+    </h1>
+  </div>
+  
+  <main id="content" class="prose">
+    {{ page.content | safe }}
+  </main>
+
+{% endblock %}
