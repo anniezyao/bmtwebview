@@ -1,6 +1,6 @@
 +++
-title = "BMT 2024 Problem Writers Webview" 
-description = "This is a browser-based view of the BMT 2024 Problem Writing repository!"
+title = "BMT Problem Writing Webview"
+description = "stuff"
 +++
 
  # See the dashboard below to get started!
