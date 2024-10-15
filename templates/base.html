@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-50">
+  <head>
+    <meta charset="utf-8" />
+    
+    {% set permalink = section.permalink 
+    | default(value=page.permalink 
+    | default(value="")) %}
+    
+    {% set permalink = section.title 
+    | default(value=page.title
+    | default(value="Berkeley Math Tournament")) %}
+    <title>{{ title }}</title>
+    
+  </head>
+</html>
