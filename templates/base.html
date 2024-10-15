@@ -12,7 +12,9 @@
     {% set permalink = section.title 
     | default(value=page.title
     | default(value="Berkeley Math Tournament")) %}
+    
     <title>{{ title }}</title>
+    <meta name="og:title" content="{{ title }}" />
     
     {% set description = section.description
     | default(value=section.summary
