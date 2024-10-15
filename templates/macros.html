@@ -1,0 +1,13 @@
+{% macro nav_link(path, label) %}
+{% set href = get_url(path=path) %}
+{% set active = current_url | default(value="") == href %}
+
+<p class="hidden md:block first:hidden text-gray-400">/</p>
+<div class="hidden md:block relative">
+  <span class="invisible font-semibold">{{ label }}</span>
+  <a href="{{ href }}" class="absolute inset-0 text-center text-gray-600 {% if active %} !text-black font-semibold {% endif%}">
+    {{ label }}
+  </a>
+</div>
+
+{% endmacro nav_link %}
