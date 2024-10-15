@@ -13,5 +13,10 @@
       {{ section.content | safe }}
     </div>
   {% endif %}
+  {% if section.pages %}
+    <div class="prose">
+      {{ section.content | safe }}
+    </div>
+  {% endif %}
 
 {% endblock %}
