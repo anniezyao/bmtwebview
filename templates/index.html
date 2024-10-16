@@ -1,16 +1,11 @@
-{% extends "base.html" %}
-{% block content %}
-{# Home page #}
-<h1 class="font-bold text-xl md:text-3xl"> BMT 2024 Problem Writing Webview </h1>
-<div>
-  <p class="text-lg md:text-xl leading-relaxed">
-    This is a browser-based view of the BMT 2024 Problem Writing repository!
-  </p>
-  <p class="text-lg md:text-xl leading-relaxed">
-    Feel free to send feature requests to Annie.
-  </p>
-</div>
-
-<div class="prose">{{ section.content | safe }}</div>
-
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <p>
+      Click here to authenticate via GitHub:
+      <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=<%= client_id %>">Login</a>
+    </p>
+  </body>
+</html>
