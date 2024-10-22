@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  </head>
-  <body>
-    <p>
-      Click here to authenticate via GitHub: aaaa
-      <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=Ov23li5C7tTBDxs46LRs">Click here</a>
-    </p>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="prose">
+  {{ section.content | safe }}
+</div>
+
+{% endblock %}
