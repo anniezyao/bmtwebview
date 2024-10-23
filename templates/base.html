@@ -34,16 +34,16 @@
   </head>
   <body>
     {% block header %}
-      <header>
-        <h1>Berkeley Math Tournament</h1>
+    <header class="headfoot">
+      <h1>Berkeley Math Tournament</h1>
   
-        <nav id="menu" class="links">
-          {{ macros::nav_link(path="@/_index.md", label="Home") }} / 
-          {{ macros::nav_link(path="@/about.md", label="About") }} / 
-          {{ macros::nav_link(path="@/problems/_index.md", label="Problems and Tests") }} / 
-          {{ macros::nav_link(path="@/archives/_index.md", label="Archives") }}          
-        </nav>
-      </header>
+      <nav id="menu" class="links">
+        {{ macros::nav_link(path="@/_index.md", label="Home") }} / 
+        {{ macros::nav_link(path="@/about.md", label="About") }} / 
+        {{ macros::nav_link(path="@/problems/_index.md", label="Problems and Tests") }} / 
+        {{ macros::nav_link(path="@/archives/_index.md", label="Archives") }}          
+      </nav>
+    </header>
     {% endblock %}
   
     <hr>
@@ -53,6 +53,7 @@
     <hr>
   
     {% block footer %}
+    <footer class="headfoot">
       <a href="https://discord.gg/SKQ4VDYV">BMT Discord</a> / 
       <a href="https://www.tiktok.com/@berkeley_mt">BMT Website</a> / 
       <a href="https://gitlab.com/BerkeleyMathTournament/bmt-2024">PW Github Repo</a>
@@ -63,6 +64,7 @@
         </a> <br>
         We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
       </p>
+    </footer>
     {% endblock %}
   </body>
 </html>
