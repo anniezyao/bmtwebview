@@ -1,6 +1,6 @@
 $pcolor: #565c5c;
 $hcolor: #282b2b;
-$lcolor: #989e9e;
+$lcolor: #176363;
 
 * {
   font-family: Monaco, monospace;
@@ -18,17 +18,17 @@ h1 {
 }
 
 hr {
-  border-top: 1px solid $lcolor;
+  border-top: 1px solid $pcolor;
   margin: 1em;
 }
 
 a:link {
-  color: $pcolor;
+  color: $hcolor;
   text-decoration: none;
 }
 
 a:hover {
-  color: $hcolor;
+  color: $lcolor;
 }
 
 header {
