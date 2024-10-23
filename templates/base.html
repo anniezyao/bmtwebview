@@ -26,12 +26,11 @@
     | join(sep=" ") %}
 
     <script>
-    function thing() {
-      document.getElementById("menu").classList.toggle("open");
-    }
+      function thing() {
+        document.getElementById("menu").classList.toggle("open");
+      }
     </script>
-    
-    <link rel="stylesheet" href="./public/base.scss">
+    <link rel="stylesheet" href="{{ get_url(path='base.css') | safe}}">
   </head>
   <body>
     {% block header %}
