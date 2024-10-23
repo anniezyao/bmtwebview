@@ -3,10 +3,10 @@ $hcolor: #282b2b
 
 * {
   font-family: Monaco, monospace;
+  color: $pcolor;
 }
   
 body {
-  color: $pcolor;
   font-size: 1em;
 }
 
@@ -17,8 +17,11 @@ h1 {
   padding: 20px;
 }
 
-.links {
-  color: $pcolor;
+.links:hover {
+  color: $hcolor;
+}
+
+#menu {
   text-align: center;
-  padding: 10px;
+  font-size: 1.3em;
 }
