@@ -12,9 +12,7 @@ body {
 
 h1 {
   color: $hcolor;
-  text-align: center;
   font-size: 2em;
-  padding: 20px;
 }
 
 a:link {
@@ -26,7 +24,10 @@ a:hover {
   color: $hcolor;
 }
 
-#menu {
+.headfoot {
   text-align: center;
+}
+
+#menu {
   font-size: 1.3em;
 }
