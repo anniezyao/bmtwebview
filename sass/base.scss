@@ -17,11 +17,12 @@ h1 {
   padding: 20px;
 }
 
-a {
-  visibility: hidden;
+a:link {
+  color: $pcolor;
+  text-decoration: none;
 }
 
-.links:hover {
+a:hover {
   color: $hcolor;
 }
 
