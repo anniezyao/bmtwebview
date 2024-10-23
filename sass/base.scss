@@ -1,0 +1,24 @@
+$pcolor: #454747
+$hcolor: #282b2b
+
+* {
+  font-family: Monaco, monospace;
+}
+  
+body {
+  color: $pcolor;
+  font-size: 1em;
+}
+
+h1 {
+  color: $hcolor;
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.links {
+  color: $pcolor;
+  text-align: center;
+  padding: 10px;
+}
