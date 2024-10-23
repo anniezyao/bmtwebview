@@ -1,5 +1,6 @@
 $pcolor: #565c5c;
 $hcolor: #282b2b;
+$lcolor: #989e9e;
 
 * {
   font-family: Monaco, monospace;
@@ -13,6 +14,10 @@ body {
 h1 {
   color: $hcolor;
   font-size: 1.3em;
+}
+
+hr {
+  border-top: 1px solid $lcolor;
 }
 
 a:link {
