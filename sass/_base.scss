@@ -1,0 +1,13 @@
+$fstack: Monaco, monospace;
+$pcolor: #454747
+$hcolor: #282b2b
+
+body {
+  font: 100% $fstack;
+  color: $fcolor;
+}
+
+h1 {
+  font: 200% $fstack;
+  color: $hcolor;
+}
